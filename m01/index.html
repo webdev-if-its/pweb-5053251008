@@ -1,8 +1,13 @@
 <!DOCTYPE html>
-<html lang = "id">  
+<html lang="id">
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Taman Baca RW 04 menyediakan koleksi buku dan tempat membaca untuk warga.">
+  <meta property="og:title" content="Taman Baca RW 04">
+  <meta property="og:description" content="Taman Baca RW 04 menyediakan koleksi buku dan tempat membaca untuk warga.">
+  <meta property="og:type" content="website">
   <title>Taman Baca</title>
 
 </head>
@@ -20,57 +25,73 @@
 
   Semua test akan merah di awal. Itu memang seharusnya.
 -->
+  <header>
+    <h1>Taman Baca RW 04</h1>
+    <nav>
+      <ul>
+        <li><a href="#koleksi">Koleksi</a></li>
+        <li><a href="#jadwal">Jadwal</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <div class="header">
-    <h1 class="judul-besar">Taman Baca RW 04</h1>
-    <div class="menu">
-      <a href="#koleksi">Koleksi</a>
-      <a href="#jadwal">Jadwal</a>
-    </div>
-  </div>
+  <main>
+    <section id="tentang">
+      <h2>Tentang Kami</h2>
+      <p>Taman Baca RW 04 dibuka untuk warga sejak 2019.</p>
 
-  <div class="isi">
+      <h3 id="jadwal">Jam Buka</h3>
+      <ul>
+        <li>Senin - Jumat: 15.00 - 20.00</li>
+        <li>Sabtu: 09.00 - 17.00</li>
+        <li>Minggu: tutup</li>
+      </ul>
+    </section>
 
-    <h2 class="sub">Tentang Kami</h2>
-    <p>Taman Baca RW 04 dibuka untuk warga sejak 2019.</p>
-    <h3 class="sub">Jam Buka</h3>
-    <ul>
-      <li>Senin - Jumat: 15.00 - 20.00</li>
-      <li>Sabtu: 09.00 - 17.00</li>
-      <li>Minggu: tutup</li>
-    </ul>
+    <section id="koleksi">
+      <h2>Koleksi</h2>
+      <img src="rak.jpg" alt="Gambar Rak Buku Taman Baca">
+      <img src="garis.png" alt="">
+      <table>
+        <caption>Koleksi Buku</caption>
+        <thead>
+          <tr>
+            <th scope="col">Kategori</th>
+            <th scope="col">Jumlah</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Novel</td>
+            <td>320</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
 
-    <h4 class="sub">Koleksi</h4>
-    <img src="rak.jpg" alt="Gambar Rak Buku Taman Baca">
-    <img src="garis.png" alt="">
+    <section id="berita">
+      <h2>Berita Terbaru</h2>
+      <article class="berita">
+        <h3>Donasi Buku</h3>
+        <p>Donasi buku anak dari SD Negeri 3 sudah kami terima.</p>
+      </article>
+      <article class="berita">
+        <h3>Jadwal Mendongeng</h3>
+        <p>Jadwal mendongeng bulan ini setiap Sabtu pagi.</p>
+      </article>
+    </section>
 
-    <table>
-      <tr>
-        <td>Kategori</td>
-        <td>Jumlah</td>
-      </tr>
-      <tr>
-        <td>Novel</td>
-        <td>320</td>
-      </tr>
-    </table>
-
-    <div class="berita">
-      <p>Donasi buku anak dari SD Negeri 3 sudah kami terima.</p>
-    </div>
-
-    <div class="berita">
-      <p></p>Jadwal mendongeng bulan ini setiap Sabtu pagi.</p>
-    </div>
-
+    <p>
     <a href="https://maps.google.com" target="_blank" rel="noopener">Buka di Google Maps</a>
+    </p>
+  </main>
 
-  </div>
 
-  <div class="footer">
-    Taman Baca RW 04
-  </div>
 
+
+    <footer>
+      <p>Taman Baca RW 04</p>
+    </footer>
 </body>
 
 </html>
